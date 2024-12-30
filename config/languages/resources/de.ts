@@ -2,11 +2,13 @@ import { FluentResource } from "@fluent/bundle";
 
 const translations = new FluentResource(`
 cancel = Abbrechen
-save = Speichern
 submit = Absenden
-confirm = Bestätigen
+saved = Gespeichert
 delete = Löschen
 add = Hinzufügen
+submit = Absenden
+edit = Bearbeiten
+loading = Laden
 `);
 
 export default translations;
